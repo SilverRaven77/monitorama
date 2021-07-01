@@ -1,12 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    RbST (0.6.5)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.9)
     daemons (1.4.0)
+    down (5.2.2)
+      addressable (~> 2.5)
     et-orbi (1.2.4)
       tzinfo
     eventmachine (1.2.7)
@@ -15,13 +20,17 @@ GEM
     fugit (1.5.0)
       et-orbi (~> 1.1, >= 1.1.8)
       raabro (~> 1.4)
+    json (2.5.1)
     multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    net-ping (2.0.8)
+    public_suffix (4.0.6)
     raabro (1.4.0)
     rack (2.2.3)
     rack-protection (2.1.0)
       rack
+    redcarpet (3.5.1)
     ruby2_keywords (0.0.4)
     rufus-scheduler (3.7.0)
       fugit (~> 1.1, >= 1.1.6)
@@ -65,6 +74,11 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  RbST
+  down
+  json
+  net-ping
+  redcarpet
   smashing
 
 BUNDLED WITH

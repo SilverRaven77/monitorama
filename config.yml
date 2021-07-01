@@ -1,0 +1,12 @@
+ping:
+  1:
+    ip: 127.0.0.1
+    name: ext2.syslab.com
+
+  2:
+    ip: 8.8.8.8
+    name: dns.google.com
+
+  3:
+    ip: 1.2.3.4
+    name: non.existent.server
